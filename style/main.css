@@ -1,0 +1,116 @@
+
+
+:root {
+    --blue-green:#099d8d;
+    --aqua: #14d9c4;
+    --white: white;
+    --font-family-sans: 'Open Sans', sans-serif;
+    --font-family-rubik: 'Rubik', sans-serif;
+    --gray: #54585a;
+    --black-8: rgba(0, 0, 0, 0.08)
+    
+
+
+/*Empieza el header*/
+}
+.header-base { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nombre-grupo {
+    background-color: var(--blue-green);
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-family: var(--font-family-rubik);
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.navegador{
+    background-color: var(--aqua);
+    display: flex;  
+    justify-content: space-around;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 17px;
+    padding-right: 16px;
+}
+
+.ancor {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font-family-rubik);
+    font-size: 15px;
+    background-color: purple;
+}
+
+/*EQUIPO*/
+
+
+
+/*SOBRE NOSOTRAS*/
+
+.about-us{
+       display: flex;
+       flex-direction: column;
+       background-color: var(--white);
+}
+.quienes-somos{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-rubik);
+    font-size: 24px;
+    line-height: 45px;
+    color: var(--blue-green);
+    padding-top: 30px;
+}
+
+.article-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 4px;
+    border-image: solid 5px var(--black-8);
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:15px;
+    font-family: var(--font-family-sans);
+    font-size:20px;
+    line-height: 45px;
+    color: black;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:50rem;
+    width:39rem;
+    background-color: burlywood;
+    font-family: var(--font-family-sans);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray);
+    
+}
