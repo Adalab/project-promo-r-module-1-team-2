@@ -9,6 +9,7 @@
     --gray: #54585a;
     --cool-gray: #b8b8b9;
     --color-black:black;
+    --gun-metal: #54585a;
     --black-8: rgba(0, 0, 0, 0.08)
 }
 
@@ -71,7 +72,7 @@
 /*EQUIPO*/
 
 .main-base {
-    padding: 15px;
+   padding: 0px 15px;  /* quitamos padding arriba y abajo para evitar desplazamiento entre secciones */
 }
 
 .team-base {
@@ -98,9 +99,9 @@
 .article-base {
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;  
+    text-align: center; 
 }
-
 .equip {
     display: flex;
     justify-content: center;
@@ -129,16 +130,26 @@
     
 }
 
-/*TERMINA EL EQUIPO*/
+/* TERMINA EL EQUIPO*/
 
 /*SOBRE NOSOTRAS*/
-
-/*
 .about-us{
-       display: flex;
-       flex-direction: column;
-       background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    font-family: var(--font-family-sans);
 }
+
+.about-us p{
+    color: var(--gun-metal);
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
 .quienes-somos{
     display: flex;
     justify-content: center;
@@ -149,7 +160,7 @@
     padding-top: 30px;
 }
 
-.foto {
+/* .foto {
     width: 180px;
     height: 180px;
     padding-left: 70px;
@@ -185,6 +196,27 @@
     
 } */
 
+.font-awesome {
+    margin:auto;
+    width: 124px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 30px;  /* añado pero no viene medida. a ojo!  */
+}
+.font-awesome a {
+    color: var(--blue-green);
+}
+.dot:before {
+    content: " · ";
+}
+
+a.dot {
+    text-decoration: none;
+}
+
 /* FOOTER */
 
 .footer .links {
@@ -194,7 +226,6 @@
     font-size: 15px;   
 }
 .footer {
-    margin-top: 45px;
     text-align: center;
 }
 .separator {
