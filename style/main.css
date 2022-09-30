@@ -148,3 +148,55 @@
     margin-bottom: 45px;
 }
 
+/* CONTACTO */
+
+.contact{
+    padding: 15px;
+}
+
+.titulo-contact{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-rubik);
+    font-size: 24px;
+    line-height: 45px;
+    color: var(--blue-green);
+    padding-top: 30px;
+}
+
+.text-contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: var(--font-family-sans);
+
+}
+
+.obligatorio{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: var(--font-family-sans);
+    font-size: 12px;
+}
+
+.asterix{
+    color: var(--aqua);
+}
+
+.label-form{
+    font-family: var(--font-family-sans);
+}
+
+.input-form{
+    font-family: var(--font-family-sans);
+}
+
+.enviar{
+    font-family: var(--font-family-sans);
+    color: var(--white);
+    background-color: #099d8d;
+    border-radius: 5px;
+}
