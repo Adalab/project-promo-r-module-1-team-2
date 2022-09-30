@@ -4,20 +4,28 @@
     --aqua: #14d9c4;
     --white: white;
     --font-family-sans: 'Open Sans', sans-serif;
+    --font-family-semibold: 'Open Sans', sans-serif;
     --font-family-rubik: 'Rubik', sans-serif;
     --gray: #54585a;
     --cool-gray: #b8b8b9;
+    --color-black:black;
     --black-8: rgba(0, 0, 0, 0.08)
 }
 
 /*Empieza el header*/
-.header-base { 
+
+.header-base {
+    height: 421px;
+}
+
+.section-base { 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 990;
 
 }
 
@@ -32,6 +40,8 @@
     padding-bottom: 15px;
     padding-left: 65px;
     padding-right: 65px;
+    opacity: 95%;
+    
 }
 
 .navegador{
@@ -42,6 +52,8 @@
     padding-bottom: 8px;
     padding-left: 17px;
     padding-right: 16px;
+    opacity: 90%;
+   
 }
 
 .navegador .links {
@@ -49,25 +61,63 @@
     color: var(--white);
     font-family: var(--font-family-rubik);
     font-size: 15px;
-    background-color: purple;
 }
-
+.image-hero {
+    box-sizing: border-box;
+    width: 320px;
+    height: 421px;
+}
+/*termina el header*/
 /*EQUIPO*/
 
 .main-base {
-    padding: 15px
+    padding: 15px;
+}
+
+.team-base {
+    transform: translateY(-50%);
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .lema {
-    background-color: white;
-    
+    background-color: var(--white);
+    font-size: 18px;
+    color: var(--color-black);
+    font-family: var(--font-family-semibold); 
+    line-height: 25px;
 }
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
 .equip {
     display: flex;
     justify-content: center;
     color: var(--aqua);
     font-family: var(--font-family-rubik);
     font-size: 24px;
+    line-height: 45px;
+
+
+}
+
+.content-equip {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: var(--font-family-sans);
+    line-height: 24px;
+   
 }
 
 .fort-deb{
@@ -79,8 +129,11 @@
     
 }
 
+/*TERMINA EL EQUIPO*/
+
 /*SOBRE NOSOTRAS*/
 
+/*
 .about-us{
        display: flex;
        flex-direction: column;
@@ -94,13 +147,6 @@
     line-height: 45px;
     color: var(--blue-green);
     padding-top: 30px;
-}
-
-.article-base {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
 }
 
 .foto {
@@ -137,10 +183,7 @@
     line-height: 24px;
     color: var(--gray);
     
-}
-.icons {
-    
-}
+} */
 
 /* FOOTER */
 
