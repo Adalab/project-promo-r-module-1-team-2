@@ -1,5 +1,4 @@
 
-
 :root {
     --blue-green:#099d8d;
     --aqua: #14d9c4;
@@ -9,16 +8,17 @@
     --gray: #54585a;
     --cool-gray: #b8b8b9;
     --black-8: rgba(0, 0, 0, 0.08)
-    
-
+}
 
 /*Empieza el header*/
-}
 .header-base { 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    position: sticky;
+    top: 0;
+
 }
 
 .nombre-grupo {
@@ -30,8 +30,8 @@
     font-size: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
 .navegador{
@@ -54,7 +54,30 @@
 
 /*EQUIPO*/
 
+.main-base {
+    padding: 15px
+}
 
+.lema {
+    background-color: white;
+    
+}
+.equip {
+    display: flex;
+    justify-content: center;
+    color: var(--aqua);
+    font-family: var(--font-family-rubik);
+    font-size: 24px;
+}
+
+.fort-deb{
+    display: flex;
+    justify-content: center;
+    color: var(--blue-green);
+    font-family: var(--font-family-rubik);
+    font-size: 22px;
+    
+}
 
 /*SOBRE NOSOTRAS*/
 
@@ -115,6 +138,9 @@
     color: var(--gray);
     
 }
+.icons {
+    
+}
 
 /* FOOTER */
 
@@ -122,10 +148,8 @@
     text-decoration: none;
     color: var(--gray);
     font-family: var(--font-family-rubik);
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
-
 .footer {
     margin-top: 45px;
     text-align: center;
@@ -197,6 +221,6 @@
 .enviar{
     font-family: var(--font-family-sans);
     color: var(--white);
-    background-color: #099d8d;
+    background-color: var(--blue-green);
     border-radius: 5px;
 }
