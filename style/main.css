@@ -71,9 +71,10 @@
 /*termina el header*/
 /*EQUIPO*/
 
-.main-base {
+/* EL PADDING EN MAIN.BASE DESCOLOCA TODO */
+/* .main-base {
    padding: 0px 15px;  /* quitamos padding arriba y abajo para evitar desplazamiento entre secciones */
-}
+/* } */
 
 .team-base {
     transform: translateY(-50%);
@@ -96,11 +97,19 @@
     flex-direction: column;
     align-items: center;
 }
-.article-base {
+.article-base-equipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;
+    
+}
+.article-base  {
     display: flex;
     flex-direction: column;
     justify-content: center;  
     text-align: center; 
+    background-color: #c6cfd3;
 }
 .equip {
     display: flex;
@@ -112,23 +121,58 @@
 
 
 }
+.content-equip{
+        font-size: 16px;
+        color: var(--gray);
+        font-family: var(--font-family-sans);
+        line-height: 24px;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-right: 15px;
+}
 
-.content-equip {
+.content-equip-1 {
     font-size: 16px;
     color: var(--gray);
     font-family: var(--font-family-sans);
     line-height: 24px;
-   
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+
+}
+.content-equip-2 {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: var(--font-family-sans);
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+
 }
 
-.fort-deb{
+.fort{
     display: flex;
     justify-content: center;
     color: var(--blue-green);
     font-family: var(--font-family-rubik);
     font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 8px;
     
 }
+.deb {
+    display: flex;
+    justify-content: center;
+    color: var(--blue-green);
+    font-family: var(--font-family-rubik);
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+
 
 /* TERMINA EL EQUIPO*/
 
@@ -138,9 +182,11 @@
     flex-direction: column;
     background-color: var(--white);
     font-family: var(--font-family-sans);
+   
 }
 
-.about-us p{
+/* ESTA PARTE NO CUADRA CON EL HTML,SI LA QUITAMOS NO OCURRRE NADA  */
+/* .about-us p{
     color: var(--gun-metal);
     font-size: 16px;
     font-weight: normal;
@@ -148,7 +194,7 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-}
+} */
 
 .quienes-somos{
     display: flex;
@@ -157,18 +203,20 @@
     font-size: 24px;
     line-height: 45px;
     color: var(--blue-green);
-    padding-top: 30px;
 }
-
-/* .foto {
+.article-us-alejandra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}   
+.foto-alejandra {
     width: 180px;
     height: 180px;
-    padding-left: 70px;
-    padding-right: 70px;
     border-radius: 4px;
     border-image: solid 5px var(--black-8);
-    display: flex;
-    justify-content: center;
+   
 }
 
 .nombre{  
@@ -185,16 +233,18 @@
 .description{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height:50rem;
-    width:39rem;
-    background-color: burlywood;
+    justify-content: center;  
+    text-align: center;
     font-family: var(--font-family-sans);
     font-size: 16px;
     line-height: 24px;
     color: var(--gray);
+    padding-left: 15px;
+    padding-right: 15px;
     
-} */
+    
+    
+}
 
 .font-awesome {
     margin:auto;
