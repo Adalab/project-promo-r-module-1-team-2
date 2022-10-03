@@ -87,9 +87,9 @@
 /*EQUIPO*/
 
 /* EL PADDING EN MAIN.BASE DESCOLOCA TODO */
-.main-base {
-   margin: 0px 15px;  /*quitamos padding arriba y abajo para evitar desplazamiento*/ entre secciones 
- } 
+/*.main-base {
+   margin: 0px 15px;  /*quitamos padding arriba y abajo para evitar desplazamiento entre secciones 
+ } */
 
 .team {
     display: flex;
