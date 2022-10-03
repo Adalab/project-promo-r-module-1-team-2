@@ -1,5 +1,6 @@
 
 :root {
+    box-sizing: border-box;
     --blue-green:#099d8d;
     --aqua: #14d9c4;
     --white: white;
@@ -69,8 +70,6 @@
 
 .team-base {
     transform: translateY(50%);
-    padding-top: 14px;
-    padding-bottom: 16px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -81,6 +80,8 @@
     color: var(--color-black);
     font-family: var(--font-family-semibold); 
     line-height: 25px;
+    padding: 14px 15px 16px 15px;
+    
 }
 
 /*termina el header*/
@@ -107,15 +108,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10px;
 }
 
 .square {
     background-color: var(--white);
     width: 30px;
     height: 30px;
-    line-height: 50%;
-    transform: rotate(45deg) translateY(50%);
+    /*line-height: 50%;*/
+    transform: rotate(45deg);
+    background-color: red;
 }
 
 .article-base  {
@@ -132,8 +133,7 @@
     font-family: var(--font-family-rubik);
     font-size: 24px;
     line-height: 45px;
-
-
+    padding-top: 76px;
 }
 .content-equip{
         font-size: 16px;
