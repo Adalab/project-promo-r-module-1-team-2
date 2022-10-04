@@ -480,7 +480,7 @@ a.dot {
 }
 
 
-/*MEDIAQUERIS*/
+/*-------------------------- MEDIAQUERIS -------------------------*/
 
 @media screen and (min-width: 768px) {
     
@@ -507,6 +507,9 @@ a.dot {
         padding-left: 46x;
         width: 441px;
         transform: none;   
+        // transform: none;
+        // position: absolute;   
+        // padding: 46px;
     }
 
     .lema {
