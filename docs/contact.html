@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header class="header-base"> 
+        <section class="section-base">
+            <h1 class="nombre-grupo">The code's gambit</h1>
+            <nav class="nav">
+                <ul class="navegador">
+                    <li><a href="./index.html#team" class="links">Equipo</a></li>
+                    <li><a href="./index.html#about-us" class="links">Quienes somos</a></li>
+                    <li><a href="./contact.html" class="links">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="team-base">
+            <p class="lema">De pocas cosas hemos aprendido tanto como de la rotura de código.</p> 
+        </section>
+    </header> 
+
+
+    <main class="contact">
+        <section>
+            <h1 class="titulo-contact">Contacto</h1>
+            <p class="text-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id quidem ipsum assumenda ratione, aspernatur earum iste sequi architecto! Quo pariatur labore unde itaque quam obcaecati doloribus minus fuga dolore?</p>
+            <p class="obligatorio">Todos los campos marcados con <span class="asterix">*</span> son obligatorios</p>         
+        </section>
+        <form action=""> <!-- url de la base de datos para el formulario -->
+            <!--NOMBRE-->
+            <label for="name" class="label-form">Nombre completo <span class="asterix">*</span></label>
+            <input id="name"  class="input-form" type="text" placeholder="Escriba su nombre" required>
+            <!--EMAIL-->
+            <label for="email" class="label-form">Email <span class="asterix">*</span></label>
+            <input id="email" class="input-form" type="email" placeholder="ejemplo@mail.com" required>
+            <!--TELEFONO-->
+            <label for="telephone" class="label-form">Teléfono</label>
+            <input id="telephone" class="input-form" type="tel" placeholder="Ej: 123456789">
+            <!--MENSAJE-->
+            <label for="message" class="label-form">Mensaje <span class="asterix">*</span></label>
+            <textarea name="message" id="message" class="input-form" cols="30" rows="5" placeholder="¿Qué necesita?" required></textarea>
+            <!-- BOTON -->
+            <button class="enviar">Enviar</button>
+        </form>
+    </main>
+    <footer class="footer"> 
+        <hr class="separator">
+        <p class="copyright">The code's gambit ©2022</p>  
+        <nav class="footer-nav"> 
+            <ul>
+                <li><a href="./index.html#team" class="links">Equipo</a></li>
+                <li><a href="./index.html#about-us" class="links">Quienes somos</a></li>
+                <li><a href="./contact.html" class="links">Contacto</a></li>
+            </ul>
+        </nav>  
+        <img class="footer-logo" src="./images/logo-adalab.png" alt="logo Adalab">  
+    </footer>
+</body>
+</html>
+
+
+<!--
+
+       <form action="">
+      <label for="nombre">
+        <span>¿Cual es tu nombre?</span>
+        <input type="text" id="nombre" placeholder="John Cárdenas" />
+      </label>
+      <label for="inicio-platzi">
+        <span>¿Que día comenzaste en Platzi?</span>
+        <input type="date" id="inicio-platzi" />
+      </label>
+      <label for="horario">
+        <span>¿En que horario estudias?</span>
+        <input type="time" id="horario" />
+      </label>
+    </form>
+
+-->

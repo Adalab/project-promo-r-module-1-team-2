@@ -7,59 +7,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 <body>
-    <header class="header-base"> <!--aparecerá: nombre del equipo y un menú de navegación(fijo-)-->
-        <h1 class="nombre-grupo">NOMBRE DEL GRUPO</h1>
-        <nav class="nav"> <!--MENÚ-->
-            <ul class="navegador">
-                <li><a href="./index.html#team" class="links">EQUIPO</a></li>
-                <li><a href="./index.html#about-us" class="links">QUIENES SOMOS</a></li>
-                <li><a href="./contact.html" class="links">CONTACTO</a></li>
-            </ul>
-            <!--<img src="./images/jojos.jpg" alt=""> FOTO-->
-        </nav> 
-    </header> 
+
+    <include src="./partials/header.html"></include>
+
 
     <main class="contact">
-        <section>
-            <h1 class="titulo-contact">CONTACTO</h1>
-            <p class="text-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id quidem ipsum assumenda ratione, aspernatur earum iste sequi architecto! Quo pariatur labore unde itaque quam obcaecati doloribus minus fuga dolore?</p>
-            <p class="obligatorio">Todos los campos marcados con <span class="asterix">*</span> son obligatorios</p>
-
-        <!-- Creo que esto seria una seccion a parte de la explicacion del formulario -->
-
-            <form action=""> <!-- url de la base de datos para el formulario -->
-                <!--NOMBRE-->
-                <label for="name" class="label-form">Nombre completo <span class="asterix">*</span></label>
-                <input id="name"  class="input-form" type="text" placeholder="Escriba su nombre" required>
-                <!--EMAIL-->
-                <label for="email" class="label-form">Email <span class="asterix">*</span></label>
-                <input id="email" class="input-form" type="email" placeholder="ejemplo@mail.com" required>
-                <!--TELEFONO-->
-                <label for="telephone" class="label-form">Teléfono</label>
-                <input id="telephone" class="input-form" type="tel" placeholder="Ej: 123456789">
-                <!--MENSAJE-->
-                <label for="message" class="label-form">Mensaje <span class="asterix">*</span></label>
-                <textarea name="message" id="message" class="input-form" cols="30" rows="5" placeholder="¿Qué necesita?" required></textarea>
-                <!-- BOTON -->
-                <button class="enviar">Enviar</button>
-            </form>
-        </section>
+        <include src="./partials/formulario-contacto.html"></include>
+        <include src="./partials/preguntas-formulario.html"></include>
     </main>
-    <footer class="footer"> 
-        <hr class="separator">
-        <p class="copyright">Nombre del grupo ©2022</p>  <!--COPY-->
-        <nav class="footer-nav"> <!--MENÚ-->
-            <ul>
-                <li><a href="./index.html#team" class="links">EQUIPO</a></li>
-                <li><a href="./index.html#about-us" class="links">QUIENES SOMOS</a></li>
-                <li><a href="./contact.html" class="links">CONTACTO</a></li>
-            </ul>
-        </nav>  
-        <img class="footer-logo" src="./images/logo-adalab.png" alt="logo Adalab">  <!--LOGO-->
-    </footer> 
+    <include src="./partials/footer.html"></include>
 </body>
 </html>
 
