@@ -128,8 +128,12 @@ table {
 
 .team-base {
     transform: translateY(50%);
+    height: 80px;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lema {
@@ -138,7 +142,6 @@ table {
     color: var(--color-black);
     font-family: var(--font-family-semibold); 
     line-height: 25px;
-    padding: 14px 15px 16px 15px;
 }
 
 /*termina el header*/
