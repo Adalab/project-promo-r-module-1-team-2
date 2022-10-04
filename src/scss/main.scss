@@ -458,11 +458,12 @@ a.dot {
 
 .text-contact{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 15px;
     font-family: var(--font-family-sans);
-
+    align-content: space-around;
 }
 
 .obligatorio{
@@ -472,7 +473,8 @@ a.dot {
     padding-bottom: 40px;
     font-family: var(--font-family-sans);
     font-size: 12px;
-}
+//     padding-top: 40px;
+ }
 
 .asterix{
     color: var(--aqua);
