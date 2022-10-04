@@ -144,18 +144,11 @@ table {
 /*termina el header*/
 /*EQUIPO*/
 
-/* EL PADDING EN MAIN.BASE DESCOLOCA TODO */
-/*.main-base {
-   margin: 0px 15px;  /*quitamos padding arriba y abajo para evitar desplazamiento entre secciones 
- } */
-
 .team {
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
-
-
 
 .article-base-equipo{
     display: flex;
@@ -201,18 +194,19 @@ table {
 
 }
 
-.team1 {
-    opacity: 20%;
-}
+// .team1 {
+//     opacity: 20%;
+// }
+
+// background-color:  rgba(184, 184, 185, 0.2);
 
 .article-base  {
     display: flex;
     flex-direction: column;
     justify-content: center;  
     text-align: center; 
-    background-color: var(--cool-gray);
-    /* opacity: 20%; */
-    z-index: 900;
+    background-color: rgba(184, 184, 185, 0.2);
+    
 }
 
 
@@ -224,6 +218,7 @@ table {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
+  
 
 }
 
@@ -235,6 +230,8 @@ table {
     font-size: 22px;
     padding-top: 45px;
     padding-bottom: 8px;
+    
+    
 }
 
 .content-equip-2 {
@@ -245,6 +242,7 @@ table {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 45px;
+   
 }
 
 
@@ -255,6 +253,7 @@ table {
     font-family: var(--font-family-rubik);
     font-size: 22px;
     padding-bottom: 8px;
+    
 }
 
 
