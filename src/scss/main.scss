@@ -106,6 +106,7 @@ table {
     padding-left: 65px;
     padding-right: 65px;
     opacity: 95%;
+    text-transform: uppercase;
 }
 
 .navegador{
@@ -124,6 +125,7 @@ table {
     color: var(--white);
     font-family: var(--font-family-rubik);
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .team-base {
@@ -169,6 +171,8 @@ table {
     font-size: 24px;
     line-height: 45px;
     padding-top: 76px;
+    text-transform: uppercase;
+    
 }
 
 .content-equip{
@@ -289,6 +293,7 @@ table {
     font-size: 24px;
     line-height: 45px;
     color: var(--blue-green);
+    text-transform: uppercase;
 }
 .article-us-alejandra{
     display: flex;
@@ -426,6 +431,7 @@ a.dot {
 }
 .footer-nav {
     margin-bottom: 30px;   
+    text-transform: uppercase;
 }
 .footer-logo {
     width: 115.9px;
@@ -447,6 +453,7 @@ a.dot {
     line-height: 45px;
     color: var(--blue-green);
     padding-top: 30px;
+    text-transform: uppercase;
 }
 
 .text-contact{
@@ -487,7 +494,7 @@ a.dot {
 }
 
 
-/*MEDIAQUERIS*/
+/*-------------------------- MEDIAQUERIS -------------------------*/
 
 @media screen and (min-width: 768px) {
     
@@ -512,7 +519,6 @@ a.dot {
     .team-base {
         transform: none;
         position: absolute;   
-        transform: translateY(-73%);
         padding: 46px;
     }
 
