@@ -7,6 +7,7 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
+@import 'layout/_contact.scss';
 
 
 html, body, div, span, applet, object, iframe,
@@ -414,71 +415,6 @@ a.dot {
     height: 45px;
     margin-bottom: 45px;
 }
-
-/* CONTACTO */
-
-.contact{
-    padding: 15px;
-}
-
-.titulo-contact{
-    display: flex;
-    justify-content: center;
-    font-family: var(--font-family-rubik);
-    font-size: 24px;
-    line-height: 45px;
-    color: var(--blue-green);
-    padding-top: 30px;
-    text-transform: uppercase;
-}
-
-.text-contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    font-family: var(--font-family-sans);
-    font-size: 16px;
-    color: var(--gun-metal);
-    align-content: space-around;
-}
-
-.obligatorio{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    font-family: var(--font-family-sans);
-    font-size: 12px;
-    color: var(--gun-metal);
-    padding-bottom: 58px;
-//     padding-top: 40px;
- }
-
-.asterix{
-    color: var(--aqua);
-}
-
-.label-form{
-    font-family: var(--font-family-sans);
-    color: var(--gun-metal);
-    font-size: 14px;
-}
-
-.input-form{
-    font-family: var(--font-family-sans);
-    color: var(--cool-gray);
-    font-size: 14px;
-}
-
-.enviar{
-    font-family: var(--font-family-sans);
-    color: var(--white);
-    background-color: var(--blue-green);
-    border-radius: 5px;
-}
-
 
 /*-------------------------- MEDIAQUERIS -------------------------*/
 

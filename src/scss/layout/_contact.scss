@@ -1,0 +1,127 @@
+.contact{
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    width: 60%;
+    margin: auto;
+  }
+  @media all and (min-width: 1200px) {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+.titulo-contact{
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-family-rubik);
+  font-size: 24px;
+  line-height: 45px;
+  color: var(--blue-green);
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.text-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family-sans);
+  font-size: 16px;
+  color: var(--gun-metal);
+  text-align: center; 
+  line-height: 1.5;
+  letter-spacing: normal;;
+}
+
+.obligatorio{
+  margin-top: 30px;
+  font-family: var(--font-family-sans);
+  font-size: 12px;
+  color: var(--gun-metal);
+  margin-bottom: 60px;
+}
+
+.asterix{
+  color: var(--aqua);
+}
+
+.label-form{
+  font-family: var(--font-family-sans);
+  color: var(--gun-metal);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.input-form{
+  font-family: var(--font-family-sans);
+  color: var(--cool-gray);
+  font-size: 14px;
+  height: 45px;   
+  border: solid 1px var(--cool-gray);
+  margin-bottom: 10px;
+}
+
+.secondary-form-info *{
+  @media all and (min-width: 1200px) {
+    //Pendiente ajustar
+  }
+}
+
+.secondary-form-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column; //Pendiente ajustar
+    flex-wrap: wrap;
+  }
+}
+
+.form-submit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+}
+
+.enviar{
+  font-family: var(--font-family-sans);
+  color: var(--white);
+  background-color: var(--blue-green);
+  border-radius: 5px;
+  height: 45px;
+  @media all and (min-width: 768px) {
+    width: 206px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 278px;
+  }
+}
+
+.form-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#message {
+  height: auto;
+}
+
