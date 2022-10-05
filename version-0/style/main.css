@@ -211,7 +211,11 @@
    
 }
 
-/* ESTA PARTE NO CUADRA CON EL HTML,SI LA QUITAMOS NO OCURRRE NADA  */
+/* ESTA PARTE NO CUADRA CON EL HTML,SI LA QUITAMOS NO OCURRRE NADA */
+
+/* Esta regla era para simplificar el content-equip, content-equip-1 y content-equip-2 que tienen
+las mismas propiedades CSS y no tener que escribirla 3 veces, si tenemos que cambiar el font-size,
+por ejemplo, tenemos que estar pendiente de que no se olvide en las 3 clases */
 /* .about-us p{
     color: var(--gun-metal);
     font-size: 16px;
