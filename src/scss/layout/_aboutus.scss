@@ -1,0 +1,158 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    font-family: var(--font-family-sans);
+}
+
+.quienes-somos{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-rubik);
+    font-size: 24px;
+    line-height: 45px;
+    color: var(--blue-green);
+    text-transform: uppercase;
+}
+
+.article-us-alejandra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+}   
+
+.foto-alejandra {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: 5px solid var(--black-8);  
+}
+
+.article-us-laura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+}  
+
+.foto-laura {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: 5px solid var(--black-8);  
+}
+
+.article-us-elena{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+}  
+
+.foto-elena {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: 5px solid var(--black-8);  
+}
+
+.article-us-sara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+}  
+
+.foto-sara {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: 5px solid var(--black-8);  
+}
+
+.article-us-virginia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+}  
+
+.foto-virginia {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: 5px solid var(--black-8);  
+}
+
+.nombre{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:15px;
+    font-family: var(--font-family-sans);
+    font-size:20px;
+    line-height: 45px;
+    color: black;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;
+    font-family: var(--font-family-sans);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.font-awesome {
+    margin:auto;
+    width: 124px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 30px;  /* añado pero no viene medida. a ojo!  */
+}
+.font-awesome a {
+    color: var(--blue-green);
+}
+.dot:before {
+    content: " · ";
+}
+
+a.dot {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) { 
+   
+    .article-us-alejandra{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 44px;
+        margin-right: 45px;
+        max-width: 767px;
+    }
+
+
+    .foto-alejandra {
+        width: 207px;
+        height: 207px;
+    }
+    .nombre {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}

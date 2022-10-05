@@ -1,0 +1,147 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.article-base-equipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;  
+    padding-bottom: 14.2px;
+}
+
+.equip {
+    display: flex;
+    justify-content: center;
+    color: var(--blue-green);
+    font-family: var(--font-family-rubik);
+    font-size: 24px;
+    line-height: 45px;
+    padding-top: 76px;
+    text-transform: uppercase;
+}
+
+.content-equip{
+    font-size: 16px;
+    color: var(--gray);
+    font-family: var(--font-family-sans);
+    line-height: 24px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+}
+
+.position-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+}
+
+.square {
+    background-color: var(--white);
+    width: 30px;
+    height: 30px;
+    /*line-height: 50%;*/
+    transform: rotate(45deg);
+}
+
+.article-base-1  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center; 
+    background-color: rgba(184, 184, 185, 0.2);   
+}
+
+.content-equip-1 {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: var(--font-family-sans);
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.fort{
+    display: flex;
+    justify-content: center;
+    color: var(--blue-green);
+    font-family: var(--font-family-rubik);
+    font-size: 22px;
+    padding-top: 45px;
+    padding-bottom: 8px;
+}
+
+.article-base-2  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center; 
+    background-color: rgba(184, 184, 185, 0.2);
+}
+
+.content-equip-2 {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: var(--font-family-sans);
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+}
+
+.deb {
+    display: flex;
+    justify-content: center;
+    color: var(--blue-green);
+    font-family: var(--font-family-rubik);
+    font-size: 22px;
+    padding-bottom: 8px; 
+}
+
+@media screen and (min-width: 768px) { 
+   
+    .article-base-equipo{
+        padding: 45px 45px 30px 45px;
+
+    }
+    .team1{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .deb{
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+
+    .fort{
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+
+    .equip {
+        padding-top: 0px;
+        padding-bottom: 15px; 
+    }
+
+    .article-base-1{
+        display: block;
+        
+    }
+
+    .article-base-2{
+        display: block;
+        
+    }
+
+    .content-equip {
+        height: 168px;
+        width: 678px;
+        padding: 0px;
+    }
+}
