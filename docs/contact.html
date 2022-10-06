@@ -22,34 +22,38 @@
                 </ul>
             </nav>
         </section>
-        <section class="team-base">
-            <p class="lema">De pocas cosas hemos aprendido tanto como de la rotura de código.</p> 
-        </section>
     </header> 
 
 
     <main class="contact">
         <section>
-            <h1 class="titulo-contact">Contacto</h1>
-            <p class="text-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id quidem ipsum assumenda ratione, aspernatur earum iste sequi architecto! Quo pariatur labore unde itaque quam obcaecati doloribus minus fuga dolore?</p>
-            <p class="obligatorio">Todos los campos marcados con <span class="asterix">*</span> son obligatorios</p>         
+            <h3 class="titulo-contact">Contacto</h3>
+            <p class="text-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum ullamcorper mauris, vel convallis metus eleifend in.
+                <span class="obligatorio">Todos los campos marcados con <span class="asterix">*</span> son obligatorios</span>
+            </p>       
         </section>
-        <form action=""> <!-- url de la base de datos para el formulario -->
-            <!--NOMBRE-->
-            <label for="name" class="label-form">Nombre completo <span class="asterix">*</span></label>
-            <input id="name"  class="input-form" type="text" placeholder="Escriba su nombre" required>
-            <!--EMAIL-->
-            <label for="email" class="label-form">Email <span class="asterix">*</span></label>
-            <input id="email" class="input-form" type="email" placeholder="ejemplo@mail.com" required>
-            <!--TELEFONO-->
-            <label for="telephone" class="label-form">Teléfono</label>
-            <input id="telephone" class="input-form" type="tel" placeholder="Ej: 123456789">
-            <!--MENSAJE-->
-            <label for="message" class="label-form">Mensaje <span class="asterix">*</span></label>
-            <textarea name="message" id="message" class="input-form" cols="30" rows="5" placeholder="¿Qué necesita?" required></textarea>
-            <!-- BOTON -->
-            <button class="enviar">Enviar</button>
-        </form>
+        <section class="form-section">
+            <form class="contact-form" action=""> <!-- url de la base de datos para el formulario -->
+                <!--NOMBRE-->
+                <label for="name" class="label-form">Nombre completo <span class="asterix">*</span></label>
+                <input id="name"  class="input-form" type="text" placeholder="Escriba su nombre" required>
+                <div class="secondary-form-info">
+                    <!--EMAIL-->
+                    <label for="email" class="label-form label-mail">Email <span class="asterix">*</span></label>
+                    <input id="email" class="input-form input-mail" type="email" placeholder="ejemplo@mail.com" required>
+                    <!--TELEFONO-->
+                    <label for="telephone" class="label-form label-phone">Teléfono</label>
+                    <input id="telephone" class="input-form input-phone" type="tel" placeholder="Ej: 123456789">
+                </div>
+                <!--MENSAJE-->
+                <label for="message" class="label-form">Mensaje <span class="asterix">*</span></label>
+                <textarea name="message" id="message" class="input-form" cols="30" rows="5" placeholder="¿Qué necesita?" required></textarea>
+                <!-- BOTON -->
+                <div class="form-submit">
+                    <button class="enviar">Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="footer"> 
         <hr class="separator">
@@ -61,7 +65,7 @@
                 <li><a href="./contact.html" class="links">Contacto</a></li>
             </ul>
         </nav>  
-        <img class="footer-logo" src="./images/logo-adalab.png" alt="logo Adalab">  
+        <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="logo Adalab">  
     </footer>
 </body>
 </html>
