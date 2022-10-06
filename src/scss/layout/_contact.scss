@@ -67,9 +67,40 @@
   margin-bottom: 10px;
 }
 
-.secondary-form-info *{
+.secondary-form-info label{
   @media all and (min-width: 1200px) {
-    //Pendiente ajustar
+    order: -1;
+  }
+}
+
+.secondary-form-info input{
+  @media all and (min-width: 1200px) {
+    order: 1;
+  }
+}
+
+.label-mail {
+  @media all and (min-width: 1200px) {
+    flex: 3 1 60%;
+  }
+}
+
+.label-phone{
+  @media all and (min-width: 1200px) {
+    flex: 1 1 30%;
+  }
+}
+
+.input-mail {
+  @media all and (min-width: 1200px) {
+    flex: 3 1 60%;
+    margin-right: 15px;
+  }
+}
+
+.input-phone {
+  @media all and (min-width: 1200px) {
+    flex: 1 1 30%;
   }
 }
 
@@ -79,7 +110,7 @@
   flex-wrap: nowrap;
   @media all and (min-width: 1200px) {
     display: flex;
-    flex-direction: column; //Pendiente ajustar
+    flex-direction: row;
     flex-wrap: wrap;
   }
 }
