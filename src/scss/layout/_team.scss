@@ -110,18 +110,24 @@
 
     }
     .team1{
+        box-sizing: border-box;
         display:flex;
         flex-direction: row;
+        height: 333px;
     }
 
     .deb{
         padding-top: 45px;
         padding-bottom: 15px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
     .fort{
         padding-top: 45px;
         padding-bottom: 15px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
     .equip {
@@ -130,12 +136,12 @@
     }
 
     .article-base-1{
-        display: block;
-        
+        display: block; 
     }
 
     .article-base-2{
         display: block;
+        
         
     }
 
@@ -144,4 +150,31 @@
         width: 678px;
         padding: 0px;
     }
+
+    .content-equip-1 {
+        margin-left: 45px;
+        margin-right: 15px;
+        padding: 0px;
+    }
+    .content-equip-2 {
+        margin-left: 15px;
+        margin-right: 45px;
+        padding: 0px;
+    }
+
+    @media all and (min-width: 1200px) {
+        .content-equip-1 {
+            margin-left: 138px;
+            margin-right: 22.5px;
+            padding: 0px;
+        }
+        .content-equip-2 {
+            margin-left: 22.5px;
+            margin-right: 138px;
+            padding: 0px;
+        } 
+        .team1 {
+            height: 303px;
+        }
+     } 
 }
