@@ -3,6 +3,10 @@
     flex-direction: column;
     background-color: var(--white);
     font-family: var(--font-family-sans);
+    @media all and (min-width: 1200px) {
+        width: 90%;
+        margin:auto;
+    }
 }
 
 .quienes-somos{
@@ -33,7 +37,6 @@
         flex-direction: row;
         padding-left: 45px;
         padding-right: 45px;
-        
      }  
 }  
 
@@ -50,6 +53,30 @@
         flex-wrap: wrap;
         align-content: flex-start; 
      } 
+}
+
+.box-information-left {
+    @media all and (min-width: 768px) {
+        justify-content: flex-start;
+     }    
+}
+
+.box-information-right {
+    @media all and (min-width: 768px) {
+        justify-content: flex-end;
+     }    
+}
+
+.box-left {
+    @media screen and (min-width: 768px) {
+        order: -1
+    }
+}
+
+.box-right {
+    @media screen and (min-width: 768px) {
+        order: 1
+    }
 }
 
 
