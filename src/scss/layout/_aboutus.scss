@@ -15,75 +15,20 @@
     text-transform: uppercase;
 }
 
-.article-us-alejandra{
+.article-us{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;  
 }   
 
-.foto-alejandra {
+.foto-member{
     width: 180px;
     height: 180px;
     border-radius: 4px;
     border: 5px solid var(--black-8);  
 }
 
-.article-us-laura{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;  
-}  
-
-.foto-laura {
-    width: 180px;
-    height: 180px;
-    border-radius: 4px;
-    border: 5px solid var(--black-8);  
-}
-
-.article-us-elena{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;  
-}  
-
-.foto-elena {
-    width: 180px;
-    height: 180px;
-    border-radius: 4px;
-    border: 5px solid var(--black-8);  
-}
-
-.article-us-sara{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;  
-}  
-
-.foto-sara {
-    width: 180px;
-    height: 180px;
-    border-radius: 4px;
-    border: 5px solid var(--black-8);  
-}
-
-.article-us-virginia{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;  
-}  
-
-.foto-virginia {
-    width: 180px;
-    height: 180px;
-    border-radius: 4px;
-    border: 5px solid var(--black-8);  
-}
 
 .nombre{  
     display: flex;
@@ -129,4 +74,3 @@
 a.dot {
     text-decoration: none;
 }
-
