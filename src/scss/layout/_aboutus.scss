@@ -19,14 +19,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;  
+    justify-content:center; 
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 45px;
+        padding-right: 45px;
+        background-color: red;
+      }
+    
 }   
+
 
 .foto-member{
     width: 180px;
     height: 180px;
     border-radius: 4px;
-    border: 5px solid var(--black-8);  
+    border: 5px solid var(--black-8); 
+    @media all and (min-width: 768px) {
+        width: 205px;
+        height: 205px;
+
+      }
+    @media all and (min-width: 1200px) {
+        width: 278px;
+        height: 278px;
+      } 
 }
 
 
@@ -52,6 +72,7 @@
     color: var(--gray);
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 .font-awesome {
@@ -74,3 +95,5 @@
 a.dot {
     text-decoration: none;
 }
+
+
