@@ -15,8 +15,8 @@
 .equip {
     display: flex;
     justify-content: center;
-    color: var(--blue-green);
-    font-family: var(--font-family-rubik);
+    color: $blue-green;
+    font-family: $font-family-rubik;
     font-size: 24px;
     line-height: 45px;
     padding-top: 76px;
@@ -25,8 +25,8 @@
 
 .content-equip{
     font-size: 16px;
-    color: var(--gray);
-    font-family: var(--font-family-sans);
+    color: $gray;
+    font-family: $font-family-sans;
     line-height: 24px;
     padding-left: 15px;
     padding-bottom: 25px;
@@ -41,7 +41,7 @@
 }
 
 .square {
-    background-color: var(--white);
+    background-color: $white;
     width: 30px;
     height: 30px;
     /*line-height: 50%;*/
@@ -58,8 +58,8 @@
 
 .content-equip-1 {
     font-size: 16px;
-    color: var(--gray);
-    font-family: var(--font-family-sans);
+    color: $gray;
+    font-family: $font-family-sans;
     line-height: 24px;
     padding-left: 15px;
     padding-right: 15px;
@@ -69,8 +69,8 @@
 .fort{
     display: flex;
     justify-content: center;
-    color: var(--blue-green);
-    font-family: var(--font-family-rubik);
+    color: $blue-green;
+    font-family: $font-family-rubik;
     font-size: 22px;
     padding-top: 45px;
     padding-bottom: 8px;
@@ -86,8 +86,8 @@
 
 .content-equip-2 {
     font-size: 16px;
-    color: var(--gray);
-    font-family: var(--font-family-sans);
+    color: $gray;
+    font-family: $font-family-sans;
     line-height: 24px;
     padding-left: 15px;
     padding-right: 15px;
@@ -97,8 +97,8 @@
 .deb {
     display: flex;
     justify-content: center;
-    color: var(--blue-green);
-    font-family: var(--font-family-rubik);
+    color: $blue-green;
+    font-family: $font-family-rubik;
     font-size: 22px;
     padding-bottom: 8px; 
 }

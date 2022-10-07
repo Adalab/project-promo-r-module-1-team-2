@@ -29,11 +29,11 @@
 }
 
 .nombre-grupo {
-  background-color: var(--blue-green);
+  background-color: $blue-green;
   display: flex;
   justify-content: center;
-  color: var(--white);
-  font-family: var(--font-family-rubik);
+  color: $white;
+  font-family: $font-family-rubik;
   font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -44,7 +44,7 @@
 }
 
 .navegador{
-  background-color: var(--aqua);
+  background-color: $aqua;
   display: flex;  
   justify-content: space-around;
   padding-top: 8px;
@@ -56,8 +56,8 @@
 
 .navegador .links {
   text-decoration: none;
-  color: var(--white);
-  font-family: var(--font-family-rubik);
+  color: $white;
+  font-family: $font-family-rubik;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -65,25 +65,30 @@
 .team-base {
   transform: translateY(50%);
   height: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 14px;
+  padding-bottom: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: $white;
 }
 
 .lema {
-  background-color: var(--white);
   font-size: 18px;
-  color: var(--color-black);
-  font-family: var(--font-family-semibold); 
+  color: $color-black;
+  font-family: $font-family-semibold; 
   line-height: 25px;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
     
   .section-base {
-      background-color: var(--blue-green);
+      background-color: $blue-green;
       height: 60px;
   }
   .nombre-grupo{
@@ -92,7 +97,7 @@
       padding-left: 45px;
   }
   .navegador {
-      background-color: var(--blue-green);
+      background-color: $blue-green;
       padding-top: 14px;
       padding-bottom: 16px;
       line-height: 30px;

@@ -1,5 +1,5 @@
-/*@import 'core/variables';
-@import 'core/reset';
+@import 'core/variables';
+/*@import 'core/reset';
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
@@ -58,17 +58,6 @@ table {
 
 :root {
     box-sizing: border-box;
-    --blue-green:#099d8d;
-    --aqua: #14d9c4;
-    --white: white;
-    --font-family-sans: 'Open Sans', sans-serif;
-    --font-family-semibold: 'Open Sans', sans-serif;
-    --font-family-rubik: 'Rubik', sans-serif;
-    --gray: #54585a;
-    --cool-gray: #b8b8b9;
-    --color-black:black;
-    --gun-metal: #54585a;
-    --black-8: rgba(0, 0, 0, 0.08)
 }
 
 /*Empieza el header*/
@@ -83,10 +72,11 @@ table {
 
 /* FOOTER */
 
+
 .footer .links {
     text-decoration: none;
-    color: var(--gray);
-    font-family: var(--font-family-rubik);
+    color: Sgray;
+    font-family: $font-family-rubik;
     font-size: 15px;   
 }
 .footer {
@@ -97,8 +87,8 @@ table {
 }
 .copyright {
    margin-bottom: 20px; 
-   color: var(--cool-gray);
-   font-family: var(--font-family-rubik);
+   color: $cool-gray;
+   font-family: $font-family-rubik;
    font-size: 14px;
 }
 .footer-nav {
