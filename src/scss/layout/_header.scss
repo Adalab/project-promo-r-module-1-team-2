@@ -105,16 +105,15 @@
       line-height: 30px;
   }
   .team-base {
-    padding-left: 46x;
+    margin-left: 45x;
+    padding: 15px 30px 15px 30px;
     width: 441px;
-    transform: none;   
-    // transform: none;
-    // position: absolute;   
-    // padding: 46px;
+    transform: none;  
+    opacity: 80%; 
   }
 .lema {
-    opacity: 80%;
-    padding: 15px 30px 15px 30px;
+    padding: 0px;
+
   }
 }
 
