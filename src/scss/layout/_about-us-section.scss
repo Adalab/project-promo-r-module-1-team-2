@@ -1,0 +1,25 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px 45px 15px;
+    
+    @media screen and (min-width: 768px){
+        padding: 45px 45px 63px 45px;
+    }
+
+    @media screen and (min-width: 1200px){
+        padding: 45px 138px 60px 138px;
+    }
+
+    &-title {
+        font-family: $font-family-rubik;
+        font-size: 24px;
+        line-height: 45px;
+        color: $blue-green;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+    }
+
+}
+
