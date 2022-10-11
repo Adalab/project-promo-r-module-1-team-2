@@ -1,5 +1,5 @@
-.header-base {
-  height: 421px;
+.header {
+  height: 100vh;
   background-image: url(../images/hero-img.jpg);
   background-origin: content-box;
   background-size: cover;
@@ -7,6 +7,113 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  &-section {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    width: 100%;
+    
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $blue-green;
+      height: 60px;
+    }
+    
+  }
+
+  &-title {
+    background-color: $blue-green;
+    color: $white;
+    font-family: $font-family-rubik;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 95%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    @media screen and (min-width: 768px){
+      display: block;
+      padding-left: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-left: 142px;
+    }
+  }
+
+  &-nav {
+    background-color: $aqua;
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 7px;
+
+    @media screen and (min-width: 768px){
+      background-color: $blue-green;
+      padding-top: 16px;
+      padding-bottom: 14px;
+      padding-right: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-right: 138px;
+    }
+  
+    &--items {
+    text-decoration: none;
+    color: $white;
+    font-family: $font-family-rubik;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    }
+  }
+
+  &-text {
+    background-color: $white;
+    padding: 14px 15px 16px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transform: translateY(50%);
+
+    @media screen and (min-width: 768px){
+      margin-left: 45px;
+      padding: 15px 30px 15px 30px;
+      width: 441px;
+      transform: none;  
+      opacity: 80%;
+    }
+
+    @media all and (min-width: 1200px) {
+      margin-left: 168px;
+
+    }
+
+    &--description{
+    color: $color-black;
+    font-family: $font-family-semibold; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+
+    @media all and (min-width: 1200px) {
+      font-size: 24px;
+      line-height: 30px;
+
+    }
+
+    }
+  }
 }
 
 .header-contact {
@@ -19,101 +126,3 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-
-.section-base { 
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 990;
-}
-
-.nombre-grupo {
-  background-color: $blue-green;
-  display: flex;
-  justify-content: center;
-  color: $white;
-  font-family: $font-family-rubik;
-  font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 65px;
-  padding-right: 65px;
-  opacity: 95%;
-  text-transform: uppercase;
-}
-
-.navegador{
-  background-color: $aqua;
-  display: flex;  
-  justify-content: space-around;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 17px;
-  padding-right: 16px;
-  opacity: 90%;
-}
-
-.navegador .links {
-  text-decoration: none;
-  color: $white;
-  font-family: $font-family-rubik;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.team-base {
-  transform: translateY(50%);
-  height: 80px;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 14px;
-  padding-bottom: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $white;
-}
-
-.lema {
-  font-size: 18px;
-  color: $color-black;
-  font-family: $font-family-semibold; 
-  line-height: 25px;
-  font-weight: 700;
-}
-
-@media screen and (min-width: 768px) {
-    
-  .section-base {
-      background-color: $blue-green;
-      height: 60px;
-  }
-  .nombre-grupo{
-      line-height: 30px; 
-      display: block;
-      padding-left: 45px;
-  }
-  .navegador {
-      background-color: $blue-green;
-      padding-top: 14px;
-      padding-bottom: 16px;
-      line-height: 30px;
-  }
-  .team-base {
-    margin-left: 45x;
-    padding: 15px 30px 15px 30px;
-    width: 441px;
-    transform: none;  
-    opacity: 80%; 
-  }
-.lema {
-    padding: 0px;
-
-  }
-}
-
