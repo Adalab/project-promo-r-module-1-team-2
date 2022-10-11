@@ -3,13 +3,12 @@
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
-
-@import 'layout/footer';
 @import 'pages/index';
 */
 @import 'layout/header';
 @import 'layout/_team.scss';
 @import 'layout/_aboutus.scss';
+@import 'layout/footer';
 @import 'layout/_contact.scss';
 
 html, body, div, span, applet, object, iframe,
@@ -60,46 +59,8 @@ table {
     box-sizing: border-box;
 }
 
-/*Empieza el header*/
 
 
-
-/*termina el header*/
-
-
-/*SOBRE NOSOTRAS*/
-
-
-/* FOOTER */
-
-
-.footer .links {
-    text-decoration: none;
-    color: $gray;
-    font-family: $font-family-rubik;
-    font-size: 15px;   
-}
-.footer {
-    text-align: center;
-}
-.separator {
-    margin-bottom: 30px;
-}
-.copyright {
-   margin-bottom: 20px; 
-   color: $cool-gray;
-   font-family: $font-family-rubik;
-   font-size: 14px;
-}
-.footer-nav {
-    margin-bottom: 30px;  
-    text-transform: uppercase; 
-}
-.footer-logo {
-    width: 115.9px;
-    height: 45px;
-    margin-bottom: 45px;
-}
 
 
 
