@@ -18,11 +18,11 @@
     @media screen and (min-width: 768px){
         display: flex;
         flex-direction: row;
+        gap: 25px;
     }
 
     @media screen and (min-width: 1200px){
-        display: flex;
-        flex-direction: row;
+       gap: 30px;
     }  
 } 
 
@@ -51,12 +51,9 @@
         line-height: 45px;
         @media all and (min-width: 768px) {
             padding-top: 0px;
-            padding-left: 31px;
-            padding-right: 30px;
     
        }
         @media all and (min-width: 1200px) {
-            padding-left: 45px;
             display: block;
             padding-right: 30px;
        } 
@@ -71,17 +68,6 @@
         font-size: 16px;
         line-height: 24px;
         color: $gray;
-        padding-left: 15px;
-        padding-right: 15px;
-
-        @media all and (min-width: 768px) {
-           text-align: left;
-           padding-left: 31px;
-          }
-        @media all and (min-width: 1200px) {
-            padding-left: 45px;
-            display: block;
-          } 
     }
 
 }
@@ -89,12 +75,13 @@
 .box-information-left {
     @media all and (min-width: 768px) {
         justify-content: flex-start;
-        
+        p {
+            text-align: left;
+        }   
      }
      @media all and(min-width: 1200px) {
         p {
-            text-align: left;
-            padding-right: 12rem;
+            padding-right: 9rem;
         }    
      } 
 }
@@ -102,11 +89,13 @@
 .box-information-right {
     @media all and (min-width: 768px) {
         justify-content: flex-end;
+        p {
+            text-align: right;
+        } 
      }
      @media all and(min-width: 1200px) {
         p {
-            text-align: right;
-            padding-left: 12rem;
+            padding-left: 9rem;
         }    
      }
         
@@ -160,7 +149,6 @@
     @media all and (min-width: 768px) {
         display: block;
         margin: 0px;
-        padding-left: 31px;
         padding-top: 15px;
         text-align: left;
        
@@ -168,7 +156,6 @@
      @media all and (min-width: 1200px) {
         display: block;
         margin: 0px;
-        padding-left: 45px;
         padding-top: 15px;
         text-align: left;
        } 
