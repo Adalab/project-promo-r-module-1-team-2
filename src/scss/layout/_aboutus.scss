@@ -3,6 +3,14 @@
     flex-direction: column;
     background-color: $white;
     font-family: $font-family-sans;
+}
+
+.aboutus-article-container {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width:768px){
+        gap:40px
+    }
     @media all and (min-width: 1200px) {
         width: 90%;
         margin:auto;
@@ -20,7 +28,6 @@
     @media all and (min-width: 768px) {
        padding-top: 45px;
        padding-bottom: 41px;
-
      }  
     @media all and (min-width: 1200px) {
     
@@ -58,14 +65,29 @@
 .box-information-left {
     @media all and (min-width: 768px) {
         justify-content: flex-start;
-     }    
+        
+     }
+     @media all and(min-width: 1200px) {
+        p {
+            text-align: left;
+            padding-right: 12rem;
+        }    
+     } 
 }
 
 .box-information-right {
     @media all and (min-width: 768px) {
         justify-content: flex-end;
-     }    
+     }
+     @media all and(min-width: 1200px) {
+        p {
+            text-align: right;
+            padding-left: 12rem;
+        }    
+     }
+        
 }
+
 
 .box-left {
     @media screen and (min-width: 768px) {
@@ -158,7 +180,6 @@
         padding-top: 15px;
         text-align: left;
        
- 
        }
      @media all and (min-width: 1200px) {
         display: block;
@@ -171,6 +192,7 @@
 .font-awesome a {
     color: $blue-green;
 }
+
 .dot:before {
     content: " · ";
 }
@@ -178,7 +200,6 @@
 a.dot {
     text-decoration: none;
 }
-
 
 .position-left {
     flex-direction: row-reverse;

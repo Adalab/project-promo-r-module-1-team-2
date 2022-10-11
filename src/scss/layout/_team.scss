@@ -1,6 +1,7 @@
 .team {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center; 
 }
 
@@ -25,9 +26,10 @@
 
 .content-equip{
     font-size: 16px;
-    color: $gray;
+    color: $gun-metal;
     font-family: $font-family-sans;
-    line-height: 24px;
+    line-height: 1.5;
+    text-align: center;
     padding-left: 15px;
     padding-bottom: 25px;
     padding-right: 15px;
@@ -57,9 +59,9 @@
 
 .content-equip-1 {
     font-size: 16px;
-    color: $gray;
+    color: $gun-metal;
     font-family: $font-family-sans;
-    line-height: 24px;
+    line-height: 1.5;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
