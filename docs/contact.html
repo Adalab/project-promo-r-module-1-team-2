@@ -12,13 +12,15 @@
 <body>
 
     <header class="header-contact"> 
-        <section class="section-base">
-            <h1 class="nombre-grupo">The code's gambit</h1>
-            <nav class="nav">
-                <ul class="navegador">
-                    <li><a href="./index.html#team" class="links">Equipo</a></li>
-                    <li><a href="./index.html#about-us" class="links">Quienes somos</a></li>
-                    <li><a href="./contact.html" class="links">Contacto</a></li>
+        <section class="header-section">
+                <a href="./index.html" class="header-nav--items">
+                    <h1 class="header-title">The code's Gambit</h1>
+                </a>
+            <nav> 
+                <ul class="header-nav">
+                    <li><a href="./index.html#team" class="header-nav--items">Equipo</a> </li>
+                    <li><a href="./index.html#about-us" class="header-nav--items">Quienes somos</a> </li>
+                    <li><a href="./contact.html" class="header-nav--items">Contacto</a></li>
                 </ul>
             </nav>
         </section>
@@ -27,28 +29,28 @@
 
     <main class="contact">
         <section>
-            <h3 class="titulo-contact">Contacto</h3>
-            <p class="text-contact">Para cualquier consulta rellena nuestro formulario, en breve nos pondremos en contacto contigo.
-                <span class="obligatorio">Todos los campos marcados con <span class="asterix">*</span> son obligatorios</span>
+            <h3 class="contact-title">Contacto</h3>
+            <p class="contact-text">Para cualquier consulta rellena nuestro formulario, en breve nos pondremos en contacto contigo.
+                <span class="contact-text--required">Todos los campos marcados con <span class="contact-text--asterix">*</span> son obligatorios</span>
             </p>       
         </section>
         <section class="form-section">
-            <form class="contact-form" action=""> <!-- url de la base de datos para el formulario -->
-                <!--NOMBRE-->
+            <form class="contact-form" action=""> 
+                
                 <label for="name" class="label-form">Nombre completo <span class="asterix">*</span></label>
                 <input id="name"  class="input-form" type="text" placeholder="Escriba su nombre" required>
                 <div class="secondary-form-info">
-                    <!--EMAIL-->
+                    
                     <label for="email" class="label-form label-mail">Email <span class="asterix">*</span></label>
                     <input id="email" class="input-form input-mail" type="email" placeholder="ejemplo@mail.com" required>
-                    <!--TELEFONO-->
+                    
                     <label for="telephone" class="label-form label-phone">Teléfono</label>
                     <input id="telephone" class="input-form input-phone" type="tel" placeholder="Ej: 123456789">
                 </div>
-                <!--MENSAJE-->
+              
                 <label for="message" class="label-form">Mensaje <span class="asterix">*</span></label>
                 <textarea name="message" id="message" class="input-form" cols="30" rows="5" placeholder="¿Qué necesita?" required></textarea>
-                <!-- BOTON -->
+                
                 <div class="form-submit">
                     <button class="enviar">Enviar</button>
                 </div>
@@ -56,17 +58,17 @@
         </section>
     </main>
     <footer class="footer"> 
-        <hr class="separator">
-        <p class="copyright">The code's gambit ©2022</p>  
-        <nav class="footer-nav"> 
-            <ul>
-                <li><a href="./index.html#team" class="links">Equipo</a></li>
-                <li><a href="./index.html#about-us" class="links">Quienes somos</a></li>
-                <li><a href="./contact.html" class="links">Contacto</a></li>
+        <hr class="footer-separator">
+        <p class="footer-copy">The code's Gambit &copy;2018</p>  
+        <nav> 
+            <ul class="footer-nav">
+                <li><a href="./index.html#team" class="footer-nav--items">Equipo</a></li>
+                <li><a href="./index.html#about-us"class="footer-nav--items">Quiénes somos</a></li>
+                <li><a href="./contact.html"class="footer-nav--items">Contacto</a></li>
             </ul>
         </nav>  
-        <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="logo Adalab">  
-    </footer>
+        <img src="./assets/images/logo-adalab.png" alt="logo Adalab" class="footer-logo">  
+    </footer> 
 </body>
 </html>
 
