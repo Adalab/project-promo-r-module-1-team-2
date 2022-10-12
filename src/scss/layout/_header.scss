@@ -1,9 +1,9 @@
 .header {
   height: 100vh;
   background-image: url(../images/hero-img.jpg);
-  background-origin: content-box;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -119,9 +119,9 @@
 .header-contact {
   height: 421px;
   background-image: url(../images/contact-img.jpg);
-  background-origin: content-box;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
