@@ -6,6 +6,16 @@
       margin-bottom: 30px;
   }
 
+  &-wrapp {
+      @media screen and (min-width: 768px) {
+      padding: 0 45px 60px 45px;
+      }
+  
+      @media screen and (min-width: 1200px){
+        padding: 0 138px 51px 138px;
+      }
+  }
+
   &-copy {
       color: $cool-gray;
       font-family: $font-family-rubik;
@@ -16,14 +26,12 @@
       @media screen and (min-width: 768px) {
         display:flex;
         justify-content: left;
-        padding-left: 45px;
         width:50vw;
         }
   
         @media screen and (min-width: 1200px){
         display:flex;
         justify-content: left;
-        padding: 30px 0px 0px 138px;
         width:50vw;
         }
   }
@@ -46,7 +54,6 @@
         width: 324px;
         height: 90px;
         position:absolute;
-        right:0px;
         text-align:right;
         flex-direction: column;
         justify-content: space-around;
@@ -69,13 +76,11 @@
       @media screen and (min-width: 768px) {
         display:flex;
         justify-content: left;
-        padding-left:45px;
       }
   
       @media screen and (min-width: 1200px){
         display:flex;
         justify-content: left;
-        padding: 15px 0px 51px 138px;
       } 
 
   }
