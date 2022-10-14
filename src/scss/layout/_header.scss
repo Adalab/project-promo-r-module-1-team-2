@@ -1,5 +1,5 @@
 .header {
-  height: 100vh;
+  height: 421px;
   background-image: url(../images/hero-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,6 +7,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  
+  @media all and (min-width: 1200px){
+    height: 550px;
+    background-position: 50% 0%;
+  }
+
 
   &-section {
     display: flex;
@@ -30,8 +37,8 @@
     background-color: $blue-green;
     color: $white;
     font-family: $font-family-rubik;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: rem(16);
+    line-height: rem(30);
     opacity: 95%;
     text-transform: uppercase;
     text-align: center;
@@ -72,8 +79,8 @@
     text-decoration: none;
     color: $white;
     font-family: $font-family-rubik;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: rem(15);
+    line-height: rem(30);
     text-transform: uppercase;
     }
   }
@@ -102,14 +109,13 @@
     color: $color-black;
     font-family: $font-family-semibold; 
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: rem(18);
+    line-height: rem(25);
     text-align: left;
 
     @media all and (min-width: 1200px) {
-      font-size: 24px;
-      line-height: 30px;
-
+      font-size: rem(24);
+      line-height: rem(30);
     }
 
     }
@@ -119,10 +125,20 @@
 .header-contact {
   height: 421px;
   background-image: url(../images/contact-img.jpg);
-  background-size: cover;
+   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  @media screen and (min-width: 768px) {
+    background-position: 50% -20%;
+  }
+
+
+  @media all and (min-width: 1200px){
+    height: 550px;
+    background-position: 50% 0%;
+  }
 }

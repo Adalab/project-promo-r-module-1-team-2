@@ -6,16 +6,6 @@
       margin-bottom: 30px;
   }
 
-  &-wrapp {
-      @media screen and (min-width: 768px) {
-      padding: 0 45px 60px 45px;
-      }
-  
-      @media screen and (min-width: 1200px){
-        padding: 0 138px 51px 138px;
-      }
-  }
-
   &-copy {
       color: $cool-gray;
       font-family: $font-family-rubik;
@@ -24,48 +14,48 @@
       padding-bottom: 20px;
 
       @media screen and (min-width: 768px) {
-        display:flex;
-        justify-content: left;
-        width:50vw;
-        }
-  
-        @media screen and (min-width: 1200px){
-        display:flex;
-        justify-content: left;
-        width:50vw;
-        }
+          display: flex;
+          justify-content: flex-start;
+          padding: 0 0 15px 45px;
+          }
+      
+      @media screen and (min-width: 1200px){
+          padding: 0 0 6px 138px;
+          }
   }
 
   &-nav {
       padding-bottom: 30px;
 
       @media screen and (min-width: 768px) {
-        width: 220px;
-        height: 90px;
-        position:absolute;
-        right:45px;
-        text-align:right;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;  
-      }
-    
+          position:absolute;
+          right:45px;
+          text-align:right;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;  
+          transform: translateY(-30%);
+          
+
+          }
+      
       @media screen and (min-width: 1200px){
-        width: 324px;
-        height: 90px;
-        position:absolute;
-        text-align:right;
-        flex-direction: column;
-        justify-content: space-around;
-      }
+          right:138px;
+          
+    }
+          
 
       &--items{
           text-decoration: none;
           color: $gray;
           font-family: $font-family-rubik;
-          font-size: 15px; 
-          line-height: 20px;
+          font-size: rem(15); 
+          line-height: rem(20);
           text-transform: uppercase;
+
+          @media screen and (min-width: 768px) {
+            line-height: rem(30);
+            }
       }
   }
 
@@ -74,14 +64,16 @@
       height: 45px;
 
       @media screen and (min-width: 768px) {
-        display:flex;
-        justify-content: left;
-      }
-  
+          display: flex;
+          justify-content: flex-start;
+          padding: 0 0 15px 45px;
+          }
+      
       @media screen and (min-width: 1200px){
-        display:flex;
-        justify-content: left;
-      } 
+          padding: 0 0 6px 138px;
+          }
 
   }
 }
+
+

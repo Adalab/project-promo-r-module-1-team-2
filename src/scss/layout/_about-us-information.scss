@@ -35,8 +35,6 @@
     }    
     @media all and (min-width: 1200px) {
         height: 278px;
-        display: flex;
-        flex-wrap: wrap;
         align-content: flex-start; 
         
     } 
@@ -47,8 +45,8 @@
         align-items: center;
         padding-top:15px;
         font-family: $font-family-sans;
-        font-size:20px;
-        line-height: 45px;
+        font-size: rem(20);
+        line-height: rem(45);
         @media all and (min-width: 768px) {
             padding-top: 0px;
     
@@ -64,8 +62,8 @@
         justify-content: center;  
         text-align: center;
         font-family: $font-family-sans;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: rem(16);
+        line-height: rem(24);
         color: $gray;
     }
 
@@ -96,10 +94,8 @@
         p {
             padding-left: 9rem;
         }    
-     }
-        
+     }      
 }
-
 
 .box-left {
     @media screen and (min-width: 768px) {
@@ -112,7 +108,6 @@
         order: 1
     }
 }
-
 
 .photo-member {
     width: 180px;
@@ -133,9 +128,6 @@
     }
 }
 
-
-
-
 .font-awesome {
     margin:auto;
     height: 30px;
@@ -151,12 +143,6 @@
         text-align: left;
        
        }
-     @media all and (min-width: 1200px) {
-        display: block;
-        margin: 0px;
-        padding-top: 15px;
-        text-align: left;
-       } 
 }
 .font-awesome a {
     color: $blue-green;

@@ -17,8 +17,8 @@
         &--title {
         color: $aqua;
         font-family: $font-family-rubik;
-        font-size: 24px;
-        line-height: 45px;
+        font-size: rem(24);
+        line-height: rem(45);
         text-transform: uppercase;
         padding-bottom: 15px;
         }
@@ -26,8 +26,8 @@
         &--text {
         color: $gray;
         font-family: $font-family-sans;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: rem(16);
+        line-height: rem(24);
         }
     }
 
@@ -43,16 +43,14 @@
         }
 
         @media screen and (min-width: 1200px){
-            display: flex;
-            flex-direction: row;
             padding: 45px 139px 45px 138px;
         }
     
         &--article--title {
             color: $blue-green;
             font-family: $font-family-rubik;
-            font-size: 22px;
-            line-height: 45px;
+            font-size: rem(22);
+            line-height: rem(45);
 
             @media screen and (min-width: 768px){
                 padding-bottom: 15px;
@@ -62,8 +60,8 @@
         &--article--text {
             color: $gray;
             font-family: $font-family-sans;
-            font-size: 16px;
-            line-height: 24px;
+            font-size: rem(16);
+            line-height: rem(24);
             padding-bottom: 30px;
         } 
     }

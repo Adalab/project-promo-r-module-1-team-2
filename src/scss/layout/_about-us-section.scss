@@ -9,13 +9,13 @@
     }
 
     @media screen and (min-width: 1200px){
-        padding: 45px 138px 60px 138px;
+        padding: 45px 92px 60px 92px;
     }
 
     &-title {
         font-family: $font-family-rubik;
-        font-size: 24px;
-        line-height: 45px;
+        font-size: rem(24);
+        line-height: rem(45);
         color: $blue-green;
         text-transform: uppercase;
         padding-bottom: 30px;
