@@ -27,18 +27,6 @@
 } 
 
 .box-information {
-    @media all and (min-width: 768px) {
-        height: 205px;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: stretch; 
-    }    
-    @media all and (min-width: 1200px) {
-        height: 278px;
-        align-content: flex-start; 
-        
-    } 
-    
     &--name {
         display: flex;
         flex-direction: column;
@@ -67,6 +55,17 @@
         color: $gray;
     }
 
+    @media all and (min-width: 768px) {
+        height: 205px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch; 
+    }    
+    @media all and (min-width: 1200px) {
+        height: 278px;
+        align-content: flex-start; 
+        
+    } 
 }
 
 .box-information-left {

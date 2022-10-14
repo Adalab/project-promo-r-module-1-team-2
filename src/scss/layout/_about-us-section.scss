@@ -3,14 +3,6 @@
     flex-direction: column;
     text-align: center;
     padding: 30px 15px 45px 15px;
-    
-    @media screen and (min-width: 768px){
-        padding: 45px 45px 63px 45px;
-    }
-
-    @media screen and (min-width: 1200px){
-        padding: 45px 92px 60px 92px;
-    }
 
     &-title {
         font-family: $font-family-rubik;
@@ -21,5 +13,12 @@
         padding-bottom: 30px;
     }
 
+    @media screen and (min-width: 768px){
+        padding: 45px 45px 63px 45px;
+    }
+
+    @media screen and (min-width: 1200px){
+        padding: 45px 92px 60px 92px;
+    }
 }
 

@@ -7,13 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
   
-  @media all and (min-width: 1200px){
-    height: 550px;
-    background-position: 50% 0%;
-  }
-
 
   &-section {
     display: flex;
@@ -119,6 +113,11 @@
     }
 
     }
+  }
+  
+  @media all and (min-width: 1200px){
+    height: 550px;
+    background-position: 50% 0%;
   }
 }
 
